@@ -1,0 +1,52 @@
+/* Ensure the entire section spans 100% width */
+.header {
+     text-align: center;
+     padding: 20px 0;
+     background-color: #f9f9f9; /* Optional: Add a background color for better visibility */
+     margin: 0;
+     width: 100%; /* Full-width header */
+   }
+   
+   .header h1 {
+     font-weight: bold;
+     color: #5a4dad;
+     text-transform: uppercase;
+     margin: 0;
+   }
+   
+   .image-column {
+     padding: 0; /* Remove padding between columns */
+   }
+   
+   .collaboration-image {
+     width: 100%; /* Ensure each image fills the column width */
+     height: 300px; /* Set a consistent height for all images */
+     object-fit: cover; /* Crop and maintain aspect ratio */
+     cursor: pointer;
+     transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+   }
+   
+   .collaboration-image:hover {
+     transform: scale(1.05); /* Slight zoom effect on hover */
+   }
+   
+   /* Full-width container for the section */
+   .container-fluid {
+     padding: 0; /* Remove default container padding */
+     margin: 0; /* Remove default margin to align with page edges */
+     width: 100%; /* Ensure the container spans the full width */
+   }
+   
+   .row {
+     margin: 0; /* Remove default row margin */
+     width: 100%; /* Ensure rows span the full container width */
+   }
+   
+   .image-row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+   }
+   
