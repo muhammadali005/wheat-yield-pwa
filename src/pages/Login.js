@@ -26,12 +26,12 @@ const Login = () => {
       <Container className="d-flex justify-content-center align-items-center py-5" style={{ minHeight: "100vh" }}>
         <Col md={8} lg={6}>
           <Card className="shadow-lg p-4">
-            <h2 className="text-center mb-4" style={{ color: "#5A4DAD" }}>
+            <h2 className="text-center mb-4" style={{ color: "#005C45" }}>
               Login to Your Account
             </h2>
             <Form onSubmit={handleSubmit}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email Address</Form.Label>
+                <Form.Label style={{color: "#005C45"}}>Email Address</Form.Label>
                 <Form.Control
                   type="email"
                   placeholder="Enter your email"
@@ -42,12 +42,13 @@ const Login = () => {
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Password</Form.Label>
+                <Form.Label style={{color: "#005C45"}}>Password</Form.Label>
                 <InputGroup>
                   <FormControl
                     type={showPassword ? "text" : "password"}
                     placeholder="Enter your password"
                     required
+                    style={{color: "#005C45"}}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />
@@ -60,7 +61,7 @@ const Login = () => {
                 </InputGroup>
               </Form.Group>
 
-              <Button variant="primary" type="submit" className="w-100 mb-3">
+              <Button variant="primary" type="submit" style={{backgroundColor:"#005C45"}} className="w-100 mb-3">
                 Login
               </Button>
 

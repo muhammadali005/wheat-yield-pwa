@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Navbar, Nav, Container, Button, Dropdown } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../../assets/images/logo.jpg";
+import logo from "../../assets/images/logo.png";
 
 const NavigationBar = () => {
   const [language, setLanguage] = useState("EN");
@@ -13,16 +13,19 @@ const NavigationBar = () => {
   };
 
   return (
-    <Navbar expand="lg" style={{ backgroundColor: "#2A2A7C", fontSize: "large", }}>
-      <Container>
-        <Navbar.Brand as={Link} to="/" style={{ color: "white", fontWeight: "bold" }}>
-          {/* <p>AI-driven Wheat Crop Optimization and yield prediction Tool</p> */}
-          <img
-            src={logo}
-            alt="Logo"
-            style={{ height: "40px", marginRight: "10px" }}
-          />
+    <Navbar
+      expand="lg"
+      style={{ backgroundColor: "#005C45", fontSize: "large", paddingLeft:"5%" }}
+    >
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          style={{ color: "white", fontWeight: "bold" }}
+        >
+          <img src={logo} alt="Logo" style={{ height: "70px" }} />
+          AI-Driven Solutions
         </Navbar.Brand>
+      <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -42,7 +45,9 @@ const NavigationBar = () => {
                 Services
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                <Dropdown.Item onClick={() => navigate("/crop-management-tool")}>
+                <Dropdown.Item
+                  onClick={() => navigate("/crop-management-tool")}
+                >
                   Crop Management Tool
                 </Dropdown.Item>
                 <Dropdown.Item onClick={() => navigate("/wheat-crop-calendar")}>
@@ -68,28 +73,17 @@ const NavigationBar = () => {
             <Nav.Link as={Link} to="/faqs" style={{ color: "white" }}>
               FAQ's
             </Nav.Link>
-            <Dropdown as={Nav.Item} className="nav-item-hover">
-              <Dropdown.Toggle
-                as={Nav.Link}
-                style={{
-                  color: "white",
-                  border: "none",
-                  background: "none",
-                  textDecoration: "none",
-                }}
-              >
-                Acknowledgement
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item>
-                  Meteo Blue
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
+            <Nav.Link as={Link} to="/acknowledgments" style={{ color: "white" }}>
+              Acknowledgements
+            </Nav.Link>
           </Nav>
           <Nav>
-            <Button 
-              style={{ color: "white", borderColor: "white" }} 
+            <Button
+              style={{
+                color: "white",
+                backgroundColor: "#005C45",
+                borderColor: "white",
+              }}
               onClick={() => navigate("/login")}
             >
               Login
@@ -98,7 +92,11 @@ const NavigationBar = () => {
           &nbsp;
           <Nav>
             <Button
-              style={{ color: "white", borderColor: "white" }}
+              style={{
+                color: "white",
+                backgroundColor: "#005C45",
+                borderColor: "white",
+              }}
               onClick={() => navigate("/signup")}
             >
               SignUp
@@ -108,7 +106,11 @@ const NavigationBar = () => {
           <Nav>
             <Button
               onClick={toggleLanguage}
-              style={{ color: "white", borderColor: "white" }}
+              style={{
+                color: "white",
+                backgroundColor: "#005C45",
+                borderColor: "white",
+              }}
             >
               {language === "EN" ? "Urdu" : "English"}
             </Button>

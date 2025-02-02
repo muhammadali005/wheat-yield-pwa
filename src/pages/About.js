@@ -10,7 +10,7 @@ const About = () => {
         <Row className="justify-content-center mt-4 mb-4 w-100">
           <Col md={8}>
             <Card className="shadow-sm p-4">
-              <h1 className="text-center mb-4" style={{ color: "#5A4DAD" }}>
+              <h1 className="text-center mb-4" style={{color:"#005C45"}}>
                 About Us
               </h1>
               <p className="text-center">

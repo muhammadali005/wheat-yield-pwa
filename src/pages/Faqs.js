@@ -12,7 +12,7 @@ const FAQs = () => {
         style={{ minHeight: "100vh" }}
       >
         <Card className="shadow-sm p-4 w-100" style={{ maxWidth: "80%" }}>
-          <h1 className="text-center mb-4" style={{ color: "#5A4DAD" }}>
+          <h1 className="text-center mb-4" style={{color:"#005C45"}}>
             Frequently Asked Questions (FAQs)
           </h1>
           <Accordion>

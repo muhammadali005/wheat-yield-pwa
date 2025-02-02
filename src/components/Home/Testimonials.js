@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./Testimonials.css";
+import img1 from "../../assets/images/icon1.jpeg"
+import img2 from "../../assets/images/icon2.jpeg"
 
 const Testimonials = () => {
   const testimonials = [
@@ -8,19 +10,19 @@ const Testimonials = () => {
       name: "Ali Khan",
       feedback: "This tool helped me increase my wheat yield by 25%! Highly recommended.",
       location: "Multan, Pakistan",
-      image: "",
+      image: img1,
     },
     {
       name: "Sara Ahmed",
       feedback: "Easy to use and very accurate predictions. A must-have for farmers.",
       location: "Lahore, Pakistan",
-      image: "",
+      image: img2,
     }
   ];
 
   return (
-    <div style={{ backgroundColor: "#feeded", padding: "50px 0" }}>
-      <Container className="testimonials-section"  style={{ backgroundColor: "#feeded"}}>
+    <div style={{ backgroundColor: "white", padding: "50px 0" }}>
+      <Container className="testimonials-section"  style={{ backgroundColor: "white"}}>
         <h2 className="text-center mb-5">Testimonials Section</h2>
         <Row>
           {testimonials.map((testimonial, idx) => (

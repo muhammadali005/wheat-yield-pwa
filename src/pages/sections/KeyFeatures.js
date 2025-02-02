@@ -16,7 +16,7 @@ const KeyFeatures = () => {
         <h1
           style={{
             fontWeight: "bold",
-            color: "#5A4DAD",
+            color: "#005C45",
             textTransform: "uppercase",
             margin: 0,
           }}
@@ -40,7 +40,7 @@ const KeyFeatures = () => {
               onClick={() => navigate("/weather-updates")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                <h5 style={{ color: "#005C45", fontWeight: "bold" }}>
                   Weather Updates
                 </h5>
               </Card.Body>
@@ -59,7 +59,7 @@ const KeyFeatures = () => {
               onClick={() => navigate("/ai-driven-predictions")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                <h5 style={{ color: "#005C45", fontWeight: "bold" }}>
                   AI-Driven Predictions
                 </h5>
               </Card.Body>
@@ -78,7 +78,7 @@ const KeyFeatures = () => {
               onClick={() => navigate("/crop-management-tool")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                <h5 style={{ color: "#005C45", fontWeight: "bold" }}>
                   Crop Management Tool
                 </h5>
               </Card.Body>
@@ -101,7 +101,7 @@ const KeyFeatures = () => {
               onClick={() => navigate("/best-practices")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                <h5 style={{ color: "#005C45", fontWeight: "bold" }}>
                   Best Practices
                 </h5>
               </Card.Body>
@@ -120,7 +120,7 @@ const KeyFeatures = () => {
               onClick={() => navigate("/how-to-tutorials")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                <h5 style={{ color: "#005C45", fontWeight: "bold" }}>
                   How-To Tutorials
                 </h5>
               </Card.Body>
@@ -139,7 +139,7 @@ const KeyFeatures = () => {
               onClick={() => navigate("/pest-control-tips")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                <h5 style={{ color: "#005C45", fontWeight: "bold" }}>
                 Pest Control Tips
                 </h5>
               </Card.Body>

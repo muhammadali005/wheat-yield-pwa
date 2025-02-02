@@ -46,12 +46,12 @@ const Signup = () => {
     >
       <Col md={8} lg={6}>
         <Card className="shadow-lg p-4">
-          <h2 className="text-center mb-4" style={{ color: "#5A4DAD" }}>
+          <h2 className="text-center mb-4"  style={{color: "#005C45" }}>
             Create an Account
           </h2>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email Address</Form.Label>
+              <Form.Label style={{color: "#005C45"}}>Email Address</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="Enter your email"
@@ -62,7 +62,7 @@ const Signup = () => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
+              <Form.Label style={{color: "#005C45"}}>Password</Form.Label>
               <InputGroup>
                 <FormControl
                   type={showPassword ? "text" : "password"}
@@ -81,7 +81,7 @@ const Signup = () => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicConfirmPassword">
-              <Form.Label>Confirm Password</Form.Label>
+              <Form.Label style={{color: "#005C45"}}>Confirm Password</Form.Label>
               <InputGroup>
                 <FormControl
                   type={showConfirmPassword ? "text" : "password"}
@@ -103,7 +103,7 @@ const Signup = () => {
               </InputGroup>
             </Form.Group>
 
-            <Button variant="primary" type="submit" className="w-100 mb-3">
+            <Button variant="primary" type="submit" style={{backgroundColor: "#005C45", color:"white"}} className="w-100 mb-3">
               Sign Up
             </Button>
 
@@ -113,7 +113,7 @@ const Signup = () => {
                 <p
                   useNavigate="/login"
                   style={{
-                    color: "#5A4DAD",
+                    color: "#005C45",
                     textDecoration: "none",
                     display: "inline",
                   }}

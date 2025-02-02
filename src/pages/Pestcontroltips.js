@@ -23,10 +23,10 @@ const Pestcontroltips = () => {
     <>
       <NavigationBar />
       <div className="container">
-        <h2>Pest and Disease Control Tips</h2>
+        <h2 style={{color:"#005C45"}}>Pest and Disease Control Tips</h2>
         <table className="styled-table">
           <thead>
-            <tr>
+            <tr style={{backgroundColor: "#005C45",color: "white"}}>
               <th>Pest/Disease</th>
               <th>Spread Period</th>
               <th>Control Measures</th>
@@ -62,7 +62,7 @@ const Pestcontroltips = () => {
           border: 1px solid #ddd;
         }
         .styled-table th {
-          background-color:rgb(4, 134, 255);
+          background-color: #005C45";
           color: white;
         }
         .styled-table tr:nth-child(even) {

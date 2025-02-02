@@ -9,7 +9,7 @@ const ConnectWithUs = () => {
         style={{
           textAlign: "center",
           fontWeight: "bold",
-          color: "#5A4DAD",
+          color: "#005C45",
           textTransform: "uppercase",
           margin: 0,
         }}
@@ -20,7 +20,7 @@ const ConnectWithUs = () => {
         <Row className="justify-content-center">
           <Col md={6}>
             <Card className="shadow-sm p-4">
-              <h2 style={{ color: "#5A4DAD" }} className="mb-3">
+              <h2 style={{ color: "#005C45" }} className="mb-3">
                 Send a Message
               </h2>
               <Form>
@@ -53,7 +53,7 @@ const ConnectWithUs = () => {
                 </Form.Group>
                 <Button
                   className="w-100"
-                  style={{ backgroundColor: "#5A4DAD", border: "none" }}
+                  style={{ backgroundColor: "#005C45", color:"white", border: "none" }}
                 >
                   Send Message
                 </Button>
@@ -64,7 +64,7 @@ const ConnectWithUs = () => {
           <Col md={6} className="mt-4 mt-md-0">
             <Card className="shadow-sm p-4">
               <h2
-                style={{ color: "#5A4DAD" }}
+                style={{ color: "#005C45" }}
                 className="mb-3 text-uppercase fw-bold text-center"
               >
                 Our Location

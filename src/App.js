@@ -29,6 +29,7 @@ const App = () => {
         <Route path="/crop-management-tool" element={<CropManagementTool />} />
         <Route path="/wheat-crop-calendar" element={<WheatCropCalendar />} />
         <Route path="/locations" element={<Locations />} />
+        <Route path="/acknowledgments" element={<Acknowledgment />}/>
         <Route path="/pest-control-tips" element={<Pestcontroltips />} />
         <Route path="/farmers-guide" element={<FarmersGuide />} />
         <Route path="/weather-updates" element={<Weatherupdates />} />
