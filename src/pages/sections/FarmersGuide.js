@@ -5,7 +5,6 @@ import cropImage from "../../assets/images/crop.jpg";
 
 const FarmersGuideSection = () => {
   const navigate = useNavigate();
-
   return (
     <Container fluid className="p-0">
       <div
@@ -22,7 +21,7 @@ const FarmersGuideSection = () => {
             margin: 0,
           }}
         >
-          Farmer's Guide Section
+          Farmer's Guide
         </h1>
       </div>
 
@@ -86,7 +85,7 @@ const FarmersGuideSection = () => {
         </div>
       </div>
 
-      <Container className="mt-4">
+      {/* <Container className="mt-4">
         <Row>
           <Col md={4}>
             <Card
@@ -146,7 +145,7 @@ const FarmersGuideSection = () => {
             </Card>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </Container>
   );
 };

@@ -21,13 +21,13 @@ const KeyFeatures = () => {
             margin: 0,
           }}
         >
-          Key Features Section
+          Key Features
         </h1>
       </div>
-
+      
       <Container className="mt-4">
         <Row>
-          <Col md={4}>
+        <Col md={4}>
             <Card
               className="text-center mb-3"
               style={{
@@ -37,18 +37,12 @@ const KeyFeatures = () => {
                 padding: "20px",
                 cursor: "pointer",
               }}
-              onClick={() => navigate("/extensive-weather-insights")}
+              onClick={() => navigate("/weather-updates")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontSize:"large", fontWeight: "bold" }}>
-                  Extensive Weather
-                  <br />
-                  Insights
+                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                  Weather Updates
                 </h5>
-                <p style={{ color: "#5A4DAD", fontSize:"large" }}>
-                  Utilize 24 years of detailed climatic data for strategic
-                  farming decisions
-                </p>
               </Card.Body>
             </Card>
           </Col>
@@ -65,14 +59,9 @@ const KeyFeatures = () => {
               onClick={() => navigate("/ai-driven-predictions")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold", fontSize:"large" }}>
-                  AI-Driven
-                  <br />
-                  Predictions
+                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                  AI-Driven Predictions
                 </h5>
-                <p style={{ color: "#5A4DAD", fontSize:"large"}}>
-                  Accurate yield forecasting based on machine learning models
-                </p>
               </Card.Body>
             </Card>
           </Col>
@@ -86,21 +75,81 @@ const KeyFeatures = () => {
                 padding: "20px",
                 cursor: "pointer",
               }}
-              onClick={() => navigate("/crop-management-tools")}
+              onClick={() => navigate("/crop-management-tool")}
             >
               <Card.Body>
-                <h5 style={{ color: "#5A4DAD", fontWeight: "bold", fontSize:"large" }}>
-                  Crop Management
-                  <br />
-                  Tools
+                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                  Crop Management Tool
                 </h5>
-                <p style={{ color: "#5A4DAD", fontSize:"large"}}>
-                  Comprehensive guidance on sowing, irrigation and chemical
-                  recommendations
-                </p>
               </Card.Body>
             </Card>
           </Col>
+        </Row>
+      </Container>
+      <Container className="mt-4">
+        <Row>
+          <Col md={4}>
+            <Card
+              className="text-center mb-3"
+              style={{
+                backgroundColor: "#FFF1F1",
+                border: "none",
+                borderRadius: "10px",
+                padding: "20px",
+                cursor: "pointer",
+              }}
+              onClick={() => navigate("/best-practices")}
+            >
+              <Card.Body>
+                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                  Best Practices
+                </h5>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card
+              className="text-center mb-3"
+              style={{
+                backgroundColor: "#FFF1F1",
+                border: "none",
+                borderRadius: "10px",
+                padding: "20px",
+                cursor: "pointer",
+              }}
+              onClick={() => navigate("/how-to-tutorials")}
+            >
+              <Card.Body>
+                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                  How-To Tutorials
+                </h5>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card
+              className="text-center mb-3"
+              style={{
+                backgroundColor: "#FFF1F1",
+                border: "none",
+                borderRadius: "10px",
+                padding: "20px",
+                cursor: "pointer",
+              }}
+              onClick={() => navigate("/pest-control-tips")}
+            >
+              <Card.Body>
+                <h5 style={{ color: "#5A4DAD", fontWeight: "bold" }}>
+                Pest Control Tips
+                </h5>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="mt-4">
+        <Row>
+          
         </Row>
       </Container>
     </Container>

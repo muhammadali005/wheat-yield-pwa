@@ -46,7 +46,7 @@ const WeatherAnalytic = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  Current Weather Conditions
+                  Weather Updates
                 </h5>
               </Card.Body>
             </Card>

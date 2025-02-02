@@ -4,7 +4,7 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 const PredictionTool = () => {
   return (
     <Container className="prediction-tool-section py-5 bg-light">
-      <h2 className="text-center mb-4">Try Our Prediction Tool</h2>
+      <h2 className="text-center mb-4" style={{color:"#5A4DAD", fontSize:"250%", fontWeight: "bold" }}>Try Our Prediction Tool</h2>
       <Row className="justify-content-center">
         <Col md={6}>
           <Form>
