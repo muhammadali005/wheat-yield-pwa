@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <NavigationBar />
-      {/* <Slider /> */}
+      <Slider />
       <KeyFeatures />
       <ConnectWithUs />
       <Testimonials />

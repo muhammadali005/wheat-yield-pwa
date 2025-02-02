@@ -4,7 +4,7 @@ import NavigationBar from '../../components/common/NavigationBar'
 const Farmersguide = () => {
   return (
     <>
-     <NavigationBar />
+     <NavigationBar /> 
       <p>Farmers Guide</p>
     </>
   )

@@ -98,11 +98,11 @@ const KeyFeatures = () => {
                 padding: "20px",
                 cursor: "pointer",
               }}
-              onClick={() => navigate("/best-practices")}
+              onClick={() => navigate("/farmers-guide")}
             >
               <Card.Body>
                 <h5 style={{ color: "#005C45", fontWeight: "bold" }}>
-                  Best Practices
+                  Farmer's Guide 
                 </h5>
               </Card.Body>
             </Card>

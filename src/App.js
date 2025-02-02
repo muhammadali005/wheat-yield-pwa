@@ -17,6 +17,7 @@ import Howtotutorials from "./pages/Howtotutorials";
 import Bestpractices from "./pages/Bestpractices";
 import Aidrivenpredictions from "./pages/Aidrivenpredictions";
 import Weatherupdates from "./pages/Weatherupdates";
+import BestPractices from "./components/FarmerGuide/Farmers-guide";
 
 const App = () => {
   return (
@@ -31,10 +32,9 @@ const App = () => {
         <Route path="/locations" element={<Locations />} />
         <Route path="/acknowledgments" element={<Acknowledgment />}/>
         <Route path="/pest-control-tips" element={<Pestcontroltips />} />
-        <Route path="/farmers-guide" element={<FarmersGuide />} />
+        <Route path="/farmers-guide" element={<BestPractices />} />
         <Route path="/weather-updates" element={<Weatherupdates />} />
         <Route path="/ai-driven-predictions" element={<Aidrivenpredictions />} />
-        <Route path="/best-practices" element={<Bestpractices />} />
         <Route path="/how-to-tutorials" element={<Howtotutorials />} />
         <Route path="/yield-prediction" element={<YieldPrediction />} />
         <Route path="/phenological-stages" element={<PhenologicalStages />} />
