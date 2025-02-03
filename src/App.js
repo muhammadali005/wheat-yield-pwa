@@ -7,7 +7,6 @@ import Signup from "./pages/SignUp";
 import CropManagementTool from "./pages/services/Cropmanagementtool";
 import WheatCropCalendar from "./pages/services/Wheatcropcalendar";
 import Locations from "./pages/services/Locations";
-import FarmersGuide from "./pages/services/Farmersguide";
 import YieldPrediction from "./pages/services/Yieldprediction";
 import PhenologicalStages from "./pages/services/Phenologicalstages";
 import Faqs from "./pages/Faqs";

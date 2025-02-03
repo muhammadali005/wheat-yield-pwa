@@ -25,7 +25,6 @@ const HomePageImg = () => {
         }}
       ></div>
 
-      {/* Content */}
       <div
         className="position-absolute text-center text-white"
         style={{
@@ -34,7 +33,9 @@ const HomePageImg = () => {
           transform: "translate(-50%, -50%)",
         }}
       >
-        <h1 className="text-uppercase fw-bold">Wheat Crop Optimization and Yield Prediction Using ML</h1>
+        <h1 className="text-uppercase fw-bold">
+          Wheat Crop Optimization and Yield Prediction Using ML
+        </h1>
         <h4 className="fw-bold my-3">Data-Driven Farming Solutions</h4>
 
         <Container>
